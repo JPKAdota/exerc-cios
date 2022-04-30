@@ -1,10 +1,12 @@
-n1 = 200
-n2 = 220
-n3 = 240
+n1 = 1
+n2 = 12
+n3 = 100
 
-if n1 > n2:
-    print(f'{n1}')
-elif n2 > n3:
-    print(f'{n2}')
-else:
-    print(f'{n3}')
+maior = n1
+
+if n2 > n1:
+    maior = n2
+if n3 > n1:
+    maior = n3
+
+print('Maior = ', maior)
