@@ -1,4 +1,4 @@
-numero = int(input('Digite um número inteiro: '))
+numero = float(input('Digite um número inteiro: '))
 
 d = numero%2
 

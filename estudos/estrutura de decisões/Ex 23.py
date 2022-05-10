@@ -1,4 +1,4 @@
-numero = float(input('Digite um númeor: '))
+numero = float(input('Digite um número: '))
 
 if numero == round(numero):
     print(f'{numero} é inteiro')
